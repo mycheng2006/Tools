@@ -63,13 +63,13 @@ Proxy:
  
 # Shadowsocks 配置范本
 # 第一种配置
-#- name: "你的SS节点1"               # 软件显示的节点名字
-#  type: ss                                  # 代理类型
-#  server: sz.goof.pub                          # 服务器 IP
-#  port: 10044                                 #  端口号
-#  cipher: aes-256-cfb   # 加密方法
-#  password: "6ee305"                # SS 密码
-#  # udp: true                                #默认不开启
+- name: "你的SS节点1"               # 软件显示的节点名字
+  type: ss                                  # 代理类型
+  server: sz.goof.pub                          # 服务器 IP
+  port: 10044                                 #  端口号
+  cipher: aes-256-cfb   # 加密方法
+  password: "6ee305"                # SS 密码
+  # udp: true                                #默认不开启
   
 #第二种配置
 # Shadowsocks + simple-obfs   配置范本
@@ -85,35 +85,35 @@ Proxy:
 #    # host: bing.com                  #  伪装
  
 # VMess 的配置
-#- name: "搬瓦工" # 软件显示的节点名字
-#  type: vmess # 代理类型
-#  server: 104.243.18.224 # 服务器 IP
-#  port: 10067 #  端口号
-#  uuid: 62577835-e705-4dc2-9c35-168f28352899
-#  alterId: 233  #额外的 ID
-#  cipher: auto
-#  #上面几行为必选参数
-#  #下面几行为可选参数  根据你的配置情况来
-#  # udp: true    #默认不开启
-#  # tls: true      #TLS 开启
-#  # skip-cert-verify: true     #默认不开启
-#  # network: ws    # 网路类型 WS HTTP 等
-#  # ws-path: /path  # 路径
-#  # ws-headers:     #默认不开启
-#  #  Host: v2ray.com    # HOST
+- name: "搬瓦工" # 软件显示的节点名字
+  type: vmess # 代理类型
+  server: 104.243.18.224 # 服务器 IP
+  port: 10067 #  端口号
+  uuid: 62577835-e705-4dc2-9c35-168f28352899
+  alterId: 233  #额外的 ID
+  cipher: auto
+  #上面几行为必选参数
+  #下面几行为可选参数  根据你的配置情况来
+  # udp: true    #默认不开启
+  # tls: true      #TLS 开启
+  # skip-cert-verify: true     #默认不开启
+  # network: ws    # 网路类型 WS HTTP 等
+  # ws-path: /path  # 路径
+  # ws-headers:     #默认不开启
+  #  Host: v2ray.com    # HOST
 
 # Trojan 的配置
-#- name: "trojan"
-#  type: trojan
-#  server: gkdjs.xyz
-#  port: 443
-#  password: fd04c184
-#  # udp: true
-#  # sni: example.com # aka server name
-#  # alpn:
-#  #   - h2
-#  #   - http/1.1
-#  # skip-cert-verify: true
+- name: "trojan"
+  type: trojan
+  server: gkdjs.xyz
+  port: 443
+  password: fd04c184
+  # udp: true
+  # sni: example.com # aka server name
+  # alpn:
+  #   - h2
+  #   - http/1.1
+  # skip-cert-verify: true
 
 
 
