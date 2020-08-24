@@ -65,10 +65,10 @@ Proxy:
 # 第一种配置
 #- name: "你的SS节点1"               # 软件显示的节点名字
 #  type: ss                                  # 代理类型
-#  server: 1.2.4.8                          # 服务器 IP
-#  port: 443                                 #  端口号
-#  cipher: chacha20-ietf-poly1305   # 加密方法
-#  password: "password"                # SS 密码
+#  server: sz.goof.pub                          # 服务器 IP
+#  port: 10044                                 #  端口号
+#  cipher: aes-256-cfb   # 加密方法
+#  password: "6ee305"                # SS 密码
 #  # udp: true                                #默认不开启
   
 #第二种配置
@@ -85,12 +85,12 @@ Proxy:
 #    # host: bing.com                  #  伪装
  
 # VMess 的配置
-#- name: "你的V2RAY节点1" # 软件显示的节点名字
+#- name: "搬瓦工" # 软件显示的节点名字
 #  type: vmess # 代理类型
-#  server: v2rayssr.com # 服务器 IP
-#  port: 443 #  端口号
-#  uuid: a3482e88-686a-4a58-8126-99c9df64b7bf
-#  alterId: 64  #额外的 ID
+#  server: 104.243.18.224 # 服务器 IP
+#  port: 10067 #  端口号
+#  uuid: 62577835-e705-4dc2-9c35-168f28352899
+#  alterId: 233  #额外的 ID
 #  cipher: auto
 #  #上面几行为必选参数
 #  #下面几行为可选参数  根据你的配置情况来
@@ -105,9 +105,9 @@ Proxy:
 # Trojan 的配置
 #- name: "trojan"
 #  type: trojan
-#  server: server
+#  server: gkdjs.xyz
 #  port: 443
-#  password: yourpsk
+#  password: fd04c184
 #  # udp: true
 #  # sni: example.com # aka server name
 #  # alpn:
